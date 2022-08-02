@@ -24,6 +24,7 @@
 - [类加载的时机](./08-load-class-time.md)
 - [类加载的过程](./09-load-class-process.md)
 - [类加载器](./10-class-loader.md)
+- [对象生命周期](/docs/11-object-life-cycle.md)
 
 ## 站点
 

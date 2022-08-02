@@ -31,5 +31,7 @@ features:
     details:
   - title: 类加载器
     details:
+  - title: 对象生命周期
+    details:
 footer: Attribution-ShareAlike 4.0 International Licensed | Copyright © 2018-present Doocs
 ---
