@@ -132,3 +132,12 @@ JVM 会判断此对象是否有必要执行 finalize() 方法，如果对象没�
 
 - 新生代：复制算法
 - 老年代：标记-清除算法、标记-整理算法
+
+参考资料：
+
+[关于引用计数法的循环引用问题](https://blog.csdn.net/weixin_45207388/article/details/104800844)
+
+[引用计数法的循环引用问题](https://blog.csdn.net/m0_37154839/article/details/107721556?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165899134816782388096253%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165899134816782388096253&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-107721556-null-null.142^v35^experiment_28w_v1,185^v2^tag_show&utm_term=%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E6%B3%95%20%E5%BE%AA%E7%8E%AF%E5%BC%95%E7%94%A8&spm=1018.2226.3001.4187)
+
+[Java原生内存管理(native memory management)(4)-PhantomReference和WeakReference对比](https://zhuanlan.zhihu.com/p/422591994)
+
