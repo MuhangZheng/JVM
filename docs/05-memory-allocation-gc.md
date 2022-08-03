@@ -60,3 +60,4 @@ JDK 6 Update 24 之后的规则变为：
 1. **CMS GC 时出现 `promotion failed` 和 `concurrent mode failure`**
    promotion failed，就是上文所说的担保失败，而 concurrent mode failure 是在执行 CMS GC 的过程中同时有对象要放入老年代，而此时老年代空间不足造成的。
 1. **统计得到的 Minor GC 晋升到旧生代的平均大小大于老年代的剩余空间。**
+
